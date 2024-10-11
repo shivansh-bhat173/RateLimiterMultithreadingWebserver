@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project is a **multithreaded** Java server application that implements a **sliding window counter**. It creates a time-window with a  **rate-limiting** mechanism to control request rates per client based on their **IP** address stored in a concurrent HashMap. It utilizes a thread pool to efficiently handle multiple concurrent requests efficiently, significantly improving performance compared to a traditional single-threaded  server.
+This project is a **multithreaded** Java server application that implements a **sliding window counter**. It creates a time-window with a  **rate-limiting** mechanism to control request rates per client based on their **IP** address stored in a **concurrent HashMap**. It utilizes a thread pool to efficiently handle multiple concurrent requests efficiently, significantly improving performance compared to a traditional single-threaded  server.
 
 ## Features
 
